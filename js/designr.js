@@ -156,6 +156,7 @@ $(document).ready(function() {
 
 	$('#project-modal').on('hidden.bs.modal', function () {
 		$(this).find('.loader').show();
+		$('body').removeClass('modal-open');
 		$(this).find('.image-wrapper')
 			.removeClass('flexslider')
 			.removeClass('done')
