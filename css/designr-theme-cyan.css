@@ -192,7 +192,6 @@ body {
 .navbar-brand:hover,
 .navbar-brand:active,
 .navbar-brand:focus {
-    padding:0 10px;
     font-size:30px;
     line-height:30px;
     font-weight:normal;
@@ -507,7 +506,8 @@ header.jumbotron{
 ------------------------*/
 
 #about {
-    background:#2574A9;
+    /*background:#2574A9;*/
+    background-image:url('../assets/about5.jpg');
     color:#fff;
     padding:80px 0;
 }
