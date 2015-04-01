@@ -164,9 +164,9 @@ Thanks to Philip Thrasher for the jquery plugin boilerplate for coffee script
     return this.init();
   };
   $.easyPieChart.defaultOptions = {
-    barColor: '#ef1e25',
-    trackColor: '#f2f2f2',
-    scaleColor: '#dfe0e0',
+    barColor: 'rgb(1, 1, 1)',
+    trackColor: 'rgb(153, 153, 153)',
+    scaleColor: 'rgb(153, 153, 153)',
     lineCap: 'round',
     rotate: 0,
     size: 110,

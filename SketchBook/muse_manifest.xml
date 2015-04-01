@@ -1,0 +1,40 @@
+<manifest alg="2" build="44" opt="true" iceEnabled="true" iceMarkupVersion="2" exportTarget="other" resolutions="1x" timestamp="1427867503884">
+  <folder name="assets">
+    <file name="index.html" crc="70317589" mt="1427863670000"/>
+  </folder>
+  <folder name="css">
+    <file name="site_global.css" crc="419458651"/>
+    <file name="index.css" crc="3942358484" ref="index"/>
+  </folder>
+  <folder name="scripts">
+    <file name="jquery-1.8.3.min.js" crc="364326742" ref="index"/>
+    <file name="museutils.js" crc="479751881" ref="index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="503158633" ref="index"/>
+    <file name="jquery.scrolleffects.js" crc="445554118" ref="index"/>
+    <file name="jquery.watch.js" crc="4232581965" ref="index"/>
+  </folder>
+  <folder name="images">
+    <file name="pen.jpg" crc="69454432" ref="index"/>
+    <file name="pasted svg 38133x34.svg" crc="102740610" ref="index"/>
+    <file name="pasted svg 38133x34_poster_.png" crc="3786695072" ref="index"/>
+    <file name="blob2.jpg" crc="3955818232" ref="index"/>
+    <file name="greyrobot.jpg" crc="484560524" ref="index"/>
+    <file name="robots.jpg" crc="4219460034" ref="index"/>
+    <file name="sketch020.jpg" crc="239501361" ref="index"/>
+    <file name="sketch014(new).jpg" crc="202959874" ref="index"/>
+    <file name="sketch013(new).jpg" crc="18166242" ref="index"/>
+    <file name="sketch017(new).jpg" crc="4293285908" ref="index"/>
+    <file name="sketch015(new).jpg" crc="3827370945" ref="index"/>
+    <file name="sketch018(new).jpg" crc="100973987" ref="index"/>
+    <file name="sketch019(new).jpg" crc="424481797" ref="index"/>
+    <file name="sketch021.jpg" crc="4061711493" ref="index"/>
+    <file name="sketch016(new).jpg" crc="4053306666" ref="index"/>
+    <file name="submarine2.jpg" crc="439655143" ref="index"/>
+    <file name="musictomy.jpg" crc="3799754024" ref="index"/>
+    <file name="buzz.jpg" crc="233136819" ref="index"/>
+    <file name="sketch008(new).jpg" crc="412232087" ref="index"/>
+    <file name="blaster.jpg" crc="3795558029" ref="index"/>
+    <file name="car.jpg" crc="3887709600" ref="index"/>
+  </folder>
+  <file name="index.html" crc="4094874895" mt="1427867499029" redirect="true"/>
+</manifest>
