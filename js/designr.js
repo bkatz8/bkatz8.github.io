@@ -78,7 +78,8 @@ $(document).ready(function() {
 			isFitWidth: true,
 			isResizable: true,
 			isAnimated: !Modernizr.csstransitions,
-			gutterWidth: 0
+			gutterWidth: 10,
+            
 		});
 
 		scrollSpyRefresh();
