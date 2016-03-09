@@ -553,7 +553,7 @@ header.jumbotron{
 }
 
 #about h1 {
-    color:#ffffff;
+    color:#1a1a1a;
     font-size:36px;
     line-height:42px;
     font-weight:600;
@@ -566,6 +566,7 @@ header.jumbotron{
     line-height:36px;
     font-weight:300;
     margin-bottom:42px;
+    color: #1a1a1a;
 }
 
 #about a:hover{
