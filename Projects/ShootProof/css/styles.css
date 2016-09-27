@@ -159,14 +159,14 @@ h5 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase; 
-  background-color: #F73375;
+  background-color: #74CBE8;
     color: #fff;
 }
 
 .btn:hover, .btn:focus {
   color: #fff;
   
-  background-color: #E02F6B; }
+  background-color: #6AB8D2; }
 
 .btn-white {
   font-size: 13px;
@@ -782,9 +782,9 @@ Features-stack
   .features-extra .macbook-wrap {
     position: absolute;
     width: 730px;
-    height: 402px;
+    height: 490px;
     background: url("../img/macbook-pro.svg") no-repeat center center;
-    top: 20%;
+    top: 10%;
     z-index: 4;
     left: 5%; 
 }
@@ -1616,7 +1616,7 @@ you can use the generic selector below, but it's slower:
 
 .feature-list{
    margin-top: 0%; 
-   margin-left: 0px;
+   margin-left: 20px;
 }
 
 

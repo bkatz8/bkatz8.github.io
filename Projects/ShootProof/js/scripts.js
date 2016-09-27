@@ -7,15 +7,29 @@ $(document).ready(function() {
 	}, {
 		offset: '75%'
 	});
-	$('.wp2').waypoint(function() {
+	
+    $('.wp2').waypoint(function() {
 		$('.wp2').addClass('animated fadeInUp');
 	}, {
 		offset: '75%'
 	});
-	$('.wp3').waypoint(function() {
+	
+    $('.wp3').waypoint(function() {
 		$('.wp3').addClass('animated fadeInRight');
 	}, {
 		offset: '75%'
+	});
+    
+    $('.wp4').waypoint(function() {
+		$('.wp4').addClass('animated fadeInLeft');
+	}, {
+		offset: '85%'
+	});
+    
+    $('.wp5').waypoint(function() {
+		$('.wp5').addClass('animated bounceInLeft');
+	}, {
+		offset: '85%'
 	});
 
 	/***************** Initiate Flexslider ******************/
