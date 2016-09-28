@@ -261,6 +261,28 @@
 		}
 
 	}
+    
+    @media screen and (max-width:750px) {
+     .hero-content .logo-placeholder img{ 
+        width: 50vh;
+	    }
+        
+        .img-man {
+        width: 5vh;
+        }
+        
+        .hero p.intro {
+        font-size: 20px;
+        }
+        
+        .header {
+        padding: 35px 30px;
+        }
+        
+        .header li {
+        margin-left: 1.25em;
+        }
+    }
 
 	@media screen and (max-width:480px) {
 		.hero .hero-content {
@@ -334,6 +356,10 @@
         
         .header {
         padding: 35px 30px;
+        }
+        
+        .header li {
+        margin-left: 1.25em;
         }
  
 
