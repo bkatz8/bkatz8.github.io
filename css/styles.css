@@ -511,7 +511,10 @@ Hero
 .hero {
   
   min-height: 100vh;
+  /*
   background: url("../img/bg.svg") center center;
+  */
+  background: #fff;    
   background-size: cover;
   position: relative; 
   
@@ -537,9 +540,11 @@ Hero
     
   .hero p.intro {
     color: #3d3d3d;
-    font-size: 36px;
-    font-weight: 700;
-    margin-bottom: 80px; }
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
   .hero p.intro2 {
     color: #fff;
     font-size: 30px;
@@ -547,7 +552,9 @@ Hero
     margin-bottom: 0px; }
     
   .hero .hero-content {
-    padding-top: 30vh; }
+    padding-top: 25vh;
+    height: 100vh;
+  }
 
 
 /* ==========================================================================
@@ -854,9 +861,11 @@ Features-stack
     height: 230px;
     */
     position: absolute;
-    bottom: -30vh;
-    left: 50%;
+    bottom: 10vh;
+    margin: auto;
+    display: inline-block;
     z-index: 1;
+    width: 100vh;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
@@ -1606,6 +1615,12 @@ you can use the generic selector below, but it's slower:
 .feature-list{
    margin-top: 20%; 
    margin-left: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+
+
+
 }
 
 
