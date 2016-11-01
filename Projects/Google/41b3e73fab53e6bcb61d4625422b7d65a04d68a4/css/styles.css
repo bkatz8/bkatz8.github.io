@@ -108,7 +108,7 @@ Typography
 ========================================================================== */
 p {
   font-size: 15px;
-  line-height: 29px;
+  line-height: 32px;
   font-weight: 300;
     color: rgba(28, 54, 83, 0.6);
   padding-bottom: 20px; }
@@ -293,6 +293,8 @@ ul li {
 
 .section-padding5 {
   padding: 150px 0; }
+.section-padding6 {
+  padding: 200px 0; }
 
 .tooltip {
   position: absolute;
@@ -785,7 +787,7 @@ Features-stack
     position: absolute;
     width: 730px;
     height: 490px;
-    background: url("../img/macbook-pro.svg") no-repeat center center;
+    background: url("../img/macbook-pro.png") no-repeat center center;
     top: 10%;
     z-index: 4;
     left: 5%; 
@@ -961,13 +963,13 @@ Features-stack
       
       height: auto; }
   .testimonial-page h2 {
-    color: #40AAE0;
+    color: #CFECFF;
     font-size: 28px;
     font-weight: 700;
     margin: 30px 0;
   line-height: 150%;}
   .testimonial-page p {
-    color: #fff;
+    color: #CFECFF;
     text-transform: none;
     letter-spacing: 2px; 
     margin-top: 30px;
