@@ -518,7 +518,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 100vh;
-  background: url("../img/hero.jpg") center center;
+  background: url("../img/hero.png") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -787,7 +787,7 @@ Features-stack
     position: absolute;
     width: 730px;
     height: 490px;
-    background: url("../img/macbook-pro.png") no-repeat center center;
+    background: url("../img/High-Fidelity-Mocks.gif") no-repeat center center;
     top: 15%;
     z-index: 4;
     left: 5%; 
