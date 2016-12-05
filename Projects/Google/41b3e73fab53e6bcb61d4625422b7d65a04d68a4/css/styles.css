@@ -548,8 +548,8 @@ Hero
 Hero2
 ========================================================================== */
 .hero2 {
-  min-height: 750px;
-  background: url("../img/final.jpg") center center;
+  min-height: 650px;
+  background-color: #fff;
   background-size: cover;
   position: relative; }
   .hero2 .down-arrow a {
@@ -561,7 +561,7 @@ Hero2
   }
     
   .hero2 p.intro {
-    color: #fff;
+    color: #333333;
     font-size: 20px;
     font-weight: 300;
     margin-bottom: 40px; }
