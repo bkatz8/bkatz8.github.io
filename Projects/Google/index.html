@@ -23,6 +23,7 @@ body {
     border-style: solid;
     border-color: #DEDEDE;
 	background: #fff; margin: auto; padding: 12px;
+    box-shadow: 0px 4px 10px #B1B1B1;
 }
 
 .lightbox {
@@ -65,6 +66,8 @@ div.vertical {
    color: #955;
    text-align: center;
 }
+    
+<button id="loginbutton" type="button">Enter</button>
 
 </style>
 
@@ -74,9 +77,9 @@ div.vertical {
 		<div class="horizontal">
 			<div class="vertical">
 				<div class="box">				
-					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none">wrong password</p>
+					<input style="margin: 16px; text-align: center; border-radius:2px; border-style:solid; border-width:1px; border-color:#DEDEDE; padding-top:4px; padding-bottom:4px; font-family:Open Sans; font-weight:100;" id="password" type="password" placeholder="Password" /> <br />
+					<button style="background-color:#DEDEDE; border-radius:2px; color:none; border-style:solid; border-width:1px; border-image:none; font-family:Open Sans; font-weight:100" id="loginbutton" type="button">Enter</button>
+					<p id="wrongPassword" style="display: none; ">wrong password</p>
 				</div>
 			</div>
 		</div>
