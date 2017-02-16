@@ -19,7 +19,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family:"Avenir LT W01_45 Book1475508";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -121,7 +121,7 @@ Typography
 p {
   font-size: 15px;
   line-height: 29px;
-  
+  font-family:"Avenir LT W01_35 Light1475496";
     color: rgba(28, 54, 83, 0.6);
   padding-bottom: 20px; }
 
@@ -257,8 +257,8 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
+  font-family:"Avenir LT W01_95 Black1475556";
+  
   color: #999999;
   -webkit-text-size-adjust: 100%; }
 
@@ -610,7 +610,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }
@@ -681,6 +681,7 @@ Intro
 
 .intro p{
   text-align: center;
+  font-family:"Avenir LT W01_35 Light1475496";
 }
 
 

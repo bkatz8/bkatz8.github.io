@@ -19,7 +19,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family:"Avenir LT W01_35 Light1475496";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -257,7 +257,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family:"Avenir LT W01_95 Black1475556";
   font-weight: 300;
   color: #999999;
   -webkit-text-size-adjust: 100%; }
@@ -530,9 +530,9 @@ Hero
   .hero h1 {
     color: #444444;
     margin-bottom: 15px; 
-  font-weight: 700;
-      font-size: 32px;
-      
+    font-weight: 700;
+    font-size: 32px;
+    font-family:"Avenir LT W01_95 Black1475556";  
   }
     
   .hero p.intro {
@@ -541,6 +541,7 @@ Hero
     font-weight: 100;
     margin-bottom: 0px;
     margin-top: 30px;
+    font-family:"Avenir LT W01_35 Light1475496";
   }
   .hero p.intro2 {
     color: #fff;
@@ -610,7 +611,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }
