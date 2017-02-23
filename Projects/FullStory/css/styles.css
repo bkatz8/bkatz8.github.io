@@ -19,7 +19,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -263,7 +263,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%; }
@@ -293,6 +293,9 @@ ul li {
 
 .section-padding5 {
   padding: 150px 0; }
+
+.section-padding6 {
+  padding: 200px 0; }
 
 .tooltip {
   position: absolute;
@@ -524,7 +527,9 @@ Hero
   .hero h1 {
     color: #fff;
     margin-bottom: 15px; 
-  font-weight: 700;
+    font-weight: 700;
+    font-family:"Avenir LT W01_95 Black1475556";
+    font-size: 32px;
   }
     
   .hero p.intro {
@@ -596,7 +601,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }
@@ -784,7 +789,7 @@ Features-stack
     width: 730px;
     height: 402px;
     background: url("../img/macbook-pro.svg") no-repeat center center;
-    top: 20%;
+    top: 14%;
     z-index: 4;
     left: 5%; 
 }
@@ -793,17 +798,60 @@ Features-stack
     position: absolute;
     width: 916px;
     height: 540px;
-    background: url("../img/picture_perfect.gif") no-repeat center center;
+    background: url("../img/macbook-pro-2.svg") no-repeat center center;
+    /*
     background-size: 700px;
-    top: 5%;
+    */
+    top: -8%;
     z-index: 4;
     left: 35%; 
 }
     .macbook-wrap2 img{
     width: 200px;
     }
-   
+.macbook-wrap3 {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro-3.svg") no-repeat center center;
+    /*
+    background-size: 700px;
+    */
+    top: -18%;
+    z-index: 4;
+    left: -2%; 
+}
+    .macbook-wrap4 {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro-4.svg") no-repeat center center;
+    /*
+    background-size: 700px;
+    */
+    top: -8%;
+    z-index: 4;
+    left: 35%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
 
+.macbook-wrap5 {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro-5.svg") no-repeat center center;
+    /*
+    background-size: 700px;
+    */
+    top: -4%;
+    z-index: 4;
+    left: -2%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
 /*
 
 

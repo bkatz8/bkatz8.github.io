@@ -19,7 +19,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -258,7 +258,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%; }
@@ -519,7 +519,9 @@ Hero
   .hero h1 {
     color: #fff;
     margin-bottom: 15px; 
-  font-weight: 700;
+    font-weight: 700;
+    font-family:"Avenir LT W01_95 Black1475556";
+    font-size: 32px;
   }
     
   .hero p.intro {
@@ -591,7 +593,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }

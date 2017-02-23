@@ -242,7 +242,7 @@ Global Styles
   margin: 0; }
 
 a {
-  color: #f9f9f9;
+  color: #67A8FF;
   font-weight: 600;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
@@ -257,7 +257,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family:"Avenir LT W01_95 Black1475556";
+  font-family:"Avenir LT W01_35 Light1475496";
   font-weight: 300;
   color: #999999;
   -webkit-text-size-adjust: 100%; }
@@ -511,7 +511,7 @@ Hero
 .hero {
   
   min-height: 100vh;
-  background: url("../img/bg.jpg") center center;    
+  background: url("../img/bg.svg") center center;    
   background-size: cover;
   position: relative; 
   
@@ -1157,13 +1157,14 @@ Sign up form
 first
 ========================================================================== */
 .first {
-    background: #4cc0c1 
+    background: #F3F4F8 
 }
     .first p {
     
     color: #1a1a1a;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     margin-top: 30px;
+    line-height: 35px;
 }
 
 .first2 {
