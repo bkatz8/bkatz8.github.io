@@ -505,7 +505,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 100vh;
-  background: url("../img/TEQhero.png") center center;
+  background: url("../img/TEQhero.svg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {

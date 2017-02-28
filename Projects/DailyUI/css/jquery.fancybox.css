@@ -36,6 +36,15 @@
 
 .fancybox-opened {
 	z-index: 8030;
+    width: 100vh;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 50vh;
+    opacity: 1;
+    overflow: visible;
+    display: block;
+    margin: auto;
 }
 
 .fancybox-opened .fancybox-skin {
