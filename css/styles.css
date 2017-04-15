@@ -155,6 +155,7 @@
 
 .header .links3 {
   float: left;
+  margin-top: ;
   
 }
 
@@ -204,7 +205,7 @@ h3 {
 h3.icons {
   font-size: 24px;
   margin-bottom: 60px;
-  color: #fff; 
+  color: #444; 
   text-align: center;
   font-weight: 800;
   margin-top: 0px;
@@ -215,7 +216,7 @@ h4 {
 
 h5 {
   font-size: 15px;
-  color: #fff;
+  color: #444;
   text-transform: uppercase;
   font-weight: 500; }
 
@@ -268,7 +269,9 @@ h5 {
   margin-right: 20px; }
 
 section.intro {
-  background: #333333; }
+  background: linear-gradient(170deg, #88c1ef 0, #3ba0f3 100%); 
+  background: #EAEEF5;
+    }
 
 section.intro2 {
   background: #F3F4F8; }
@@ -965,7 +968,10 @@ Features-stack
   
   .blog .blog-img-wrap {
     position: relative;
-    overflow: hidden; }
+    overflow: hidden; 
+    -webkit-transition: .3s ease-out;
+            transition: .3s ease-out;
+  }
 
 .blog .blog-img-wrap:hover, .blog .blog-img-wrap:focus {
     -webkit-transform: translateY(-5px);
@@ -1690,18 +1696,40 @@ you can use the generic selector below, but it's slower:
    margin-left: 60px;
 }
 
-@media only screen and (min-width: 768px) {
+#expand {
+    background: #fff; 
+    border-radius: 5px; 
+    padding-top: 20px; 
+    padding-bottom: 20px;
+    margin-left:10px;
+    margin-right:10px; 
+    -webkit-transition: .3s ease-out;
+            transition: .3s ease-out;
+  }
 
-
-
+#expand:hover {
+    -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+            transform: scale(1.03);
+    box-shadow: 0px 5px 15px rgba(25, 25, 25, 0.6);
+    -webkit-transition: .3s ease-out;
+            transition: .3s ease-out;
 }
+   
 
-
-
-
-
-
-
+.line-thing {
+    content: ' ';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background-color: red;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+    border: none;
+    background-color: #FFBFC9;
+}
 
 
 

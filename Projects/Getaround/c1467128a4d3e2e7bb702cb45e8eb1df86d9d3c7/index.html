@@ -1,0 +1,462 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Getaround Design Challenge</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/etline-font.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="//fast.fonts.net/cssapi/e42b6b4d-9d58-479d-90e8-8ecaa802cf19.css"/>
+    
+    <script type="text/javascript" src="//fast.fonts.net/jsapi/e42b6b4d-9d58-479d-90e8-8ecaa802cf19.js"></script>
+    
+    <style type="text/css">
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=e42b6b4d-9d58-479d-90e8-8ecaa802cf19");
+    @font-face{
+        font-family:"Avenir LT W01_35 Light1475496";
+        src:url("../../../Fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+        src:url("../../../Fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"),url("../../../Fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"),url("../../../Fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"),url("../../../Fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"),url("../../../Fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_35 Light_1475502";
+        src:url("../../../Fonts/63a166cb-be60-435c-a056-75172e43efa5.eot?#iefix");
+        src:url("../../../Fonts/63a166cb-be60-435c-a056-75172e43efa5.eot?#iefix") format("eot"),url("../../../Fonts/a59168c1-917d-4de9-a244-0316c057c357.woff2") format("woff2"),url("../../../Fonts/6dc0e7d8-9284-44e1-8f05-984a41daa3a4.woff") format("woff"),url("../../../Fonts/2315df7a-8bc2-433d-bf0a-162fc0063de0.ttf") format("truetype"),url("../../../Fonts/7b1e5b2a-b6a6-43da-9021-ada6d1d797f2.svg#7b1e5b2a-b6a6-43da-9021-ada6d1d797f2") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_45 Book1475508";
+        src:url("../../../Fonts/710789a0-1557-48a1-8cec-03d52d663d74.eot?#iefix");
+        src:url("../../../Fonts/710789a0-1557-48a1-8cec-03d52d663d74.eot?#iefix") format("eot"),url("../../../Fonts/065a6b14-b2cc-446e-9428-271c570df0d9.woff2") format("woff2"),url("../../../Fonts/65d75eb0-2601-4da5-a9a4-9ee67a470a59.woff") format("woff"),url("../../../Fonts/c70e90bc-3c94-41dc-bf14-caa727c76301.ttf") format("truetype"),url("../../../Fonts/0979215b-3a1b-4356-9c76-e90fa4551f1d.svg#0979215b-3a1b-4356-9c76-e90fa4551f1d") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_45 Book O1475514";
+        src:url("../../../Fonts/d8c50fcc-bc32-4f31-8c24-b170c64e2254.eot?#iefix");
+        src:url("../../../Fonts/d8c50fcc-bc32-4f31-8c24-b170c64e2254.eot?#iefix") format("eot"),url("../../../Fonts/476612d9-282d-4f76-95cd-b4dd31e7ed21.woff2") format("woff2"),url("../../../Fonts/f1ebae2b-5296-4244-8771-5f40e60a564a.woff") format("woff"),url("../../../Fonts/04d1bf6c-070d-4b7e-9498-6051c9f0c349.ttf") format("truetype"),url("../../../Fonts/d0a3e813-1257-4b66-812a-36101faa0fb3.svg#d0a3e813-1257-4b66-812a-36101faa0fb3") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_55 Roman1475520";
+        src:url("../../../Fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?#iefix");
+        src:url("../../../Fonts/57bf7902-79ee-4b31-a327-1bbf59a3d155.eot?#iefix") format("eot"),url("../../../Fonts/b290e775-e0f9-4980-914b-a4c32a5e3e36.woff2") format("woff2"),url("../../../Fonts/4b978f72-bb48-46c3-909a-2a8cd2f8819c.woff") format("woff"),url("../../../Fonts/9bdf0737-f98c-477a-9365-ffc41b9d1285.ttf") format("truetype"),url("../../../Fonts/15281d0d-e3c2-46e1-94db-cb681e00bfaa.svg#15281d0d-e3c2-46e1-94db-cb681e00bfaa") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_55 Obliqu1475526";
+        src:url("../../../Fonts/1e9b2738-9316-4b0c-97c0-5423b69ea147.eot?#iefix");
+        src:url("../../../Fonts/1e9b2738-9316-4b0c-97c0-5423b69ea147.eot?#iefix") format("eot"),url("../../../Fonts/1a7173fa-062b-49ad-9915-bc57d3bfc1f5.woff2") format("woff2"),url("../../../Fonts/cdda031e-26e9-4269-83d1-5a218caa10db.woff") format("woff"),url("../../../Fonts/6d1ce413-19e7-4b43-b328-6cdedc58b35a.ttf") format("truetype"),url("../../../Fonts/33fac8ae-e7a5-4903-9ac1-c09a59b4c61d.svg#33fac8ae-e7a5-4903-9ac1-c09a59b4c61d") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_65 Medium1475532";
+        src:url("../../../Fonts/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?#iefix");
+        src:url("../../../Fonts/e0542193-b2e6-4273-bc45-39d4dfd3c15b.eot?#iefix") format("eot"),url("../../../Fonts/17b90ef5-b63f-457b-a981-503bb7afe3c0.woff2") format("woff2"),url("../../../Fonts/c9aeeabd-dd65-491d-b4be-3e0db9ae47a0.woff") format("woff"),url("../../../Fonts/25f994de-d13f-4a5d-a82b-bf925a1e054d.ttf") format("truetype"),url("../../../Fonts/3604edbd-784e-4ca7-b978-18836469c62d.svg#3604edbd-784e-4ca7-b978-18836469c62d") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_65 Medium1475538";
+        src:url("../../../Fonts/cebcf56a-ea7e-4f5c-8110-a7ee367c1f91.eot?#iefix");
+        src:url("../../../Fonts/cebcf56a-ea7e-4f5c-8110-a7ee367c1f91.eot?#iefix") format("eot"),url("../../../Fonts/deb5e718-7abb-4df3-9365-edfa95317090.woff2") format("woff2"),url("../../../Fonts/04801919-17ee-4c6b-8b17-eb1965cb3ed6.woff") format("woff"),url("../../../Fonts/cee053ec-4b41-4506-a1fe-796261690610.ttf") format("truetype"),url("../../../Fonts/38a556e4-b6e5-48c6-aece-b1d470af124e.svg#38a556e4-b6e5-48c6-aece-b1d470af124e") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_85 Heavy1475544";
+        src:url("../../../Fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix");
+        src:url("../../../Fonts/6af9989e-235b-4c75-8c08-a83bdaef3f66.eot?#iefix") format("eot"),url("../../../Fonts/d513e15e-8f35-4129-ad05-481815e52625.woff2") format("woff2"),url("../../../Fonts/61bd362e-7162-46bd-b67e-28f366c4afbe.woff") format("woff"),url("../../../Fonts/ccd17c6b-e7ed-4b73-b0d2-76712a4ef46b.ttf") format("truetype"),url("../../../Fonts/20577853-40a7-4ada-a3fb-dd6e9392f401.svg#20577853-40a7-4ada-a3fb-dd6e9392f401") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_85 Heavy_1475550";
+        src:url("../../../Fonts/e6b412d9-d1ed-4b17-bb93-a6911df8640d.eot?#iefix");
+        src:url("../../../Fonts/e6b412d9-d1ed-4b17-bb93-a6911df8640d.eot?#iefix") format("eot"),url("../../../Fonts/3c210c80-960f-4684-850b-25390b4d08af.woff2") format("woff2"),url("../../../Fonts/cb5c71ad-e582-4d00-929c-67fbfaeb1c27.woff") format("woff"),url("../../../Fonts/9ced8e96-4602-4507-8c20-4ff381949a9a.ttf") format("truetype"),url("../../../Fonts/a7c1d112-7546-459d-a153-1467481298bd.svg#a7c1d112-7546-459d-a153-1467481298bd") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_95 Black1475556";
+        src:url("../../../Fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix");
+        src:url("../../../Fonts/f55e4498-ad48-4577-93a0-c614de5cbbb8.eot?#iefix") format("eot"),url("../../../Fonts/c78eb7af-a1c8-4892-974b-52379646fef4.woff2") format("woff2"),url("../../../Fonts/75b36c58-2a02-4057-a537-09af0832ae46.woff") format("woff"),url("../../../Fonts/b5c44a82-eeb8-41de-9c3f-a8db50b24b8a.ttf") format("truetype"),url("../../../Fonts/93603a74-2be0-436c-83e1-68f9ef616eaf.svg#93603a74-2be0-436c-83e1-68f9ef616eaf") format("svg");
+    }
+    @font-face{
+        font-family:"Avenir LT W01_95 Black_1475562";
+        src:url("../../../Fonts/4030caeb-d266-4d36-ac58-a3bb7a5b1bfa.eot?#iefix");
+        src:url("../../../Fonts/4030caeb-d266-4d36-ac58-a3bb7a5b1bfa.eot?#iefix") format("eot"),url("../../../Fonts/a2477e08-09d9-4d4b-97a9-23a1e22cb44c.woff2") format("woff2"),url("../../../Fonts/19d12bba-92b1-43ad-9bab-cd36a4195c2a.woff") format("woff"),url("../../../Fonts/5ba5a010-7470-4d9d-8a49-2920dc1be1f8.ttf") format("truetype"),url("../../../Fonts/6d4a6a8c-ef50-422f-8456-88d479e0b23d.svg#6d4a6a8c-ef50-422f-8456-88d479e0b23d") format("svg");
+    }
+</style>
+</head>
+<body id="top">
+    <!--[if lt IE 8]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    
+                    
+                    <div class="header ghost">
+	                   <ul class="links2">
+                            <nav class="cl-effect-15">
+                                <li><a href="../../../index.html" data-hover="Ben Katz">Ben Katz</a></li>
+                            </nav>    
+                        </ul>
+	                    <ul class="links">
+                            <nav class="cl-effect-15">
+                              <li><a href="../../../About/index.html" data-hover="About Me">About Me</a></li>
+		                      <li><a href="mailto:bkatz237@gmail.com"?Subject="Hello!" target="_top" data-hover="Email">Email</a></li>
+                              <li><a target="_blank" href="../../../BenKatz_Resume_Final.pdf" data-hover="Resume">Resume</a></li>
+                            </nav>
+	                   </ul>
+                    </div> 
+               
+                </div>
+            </header>
+        </section>
+        
+        
+        <div class="container">
+            <div class="row" style="margin-top:20vh">
+                
+                <div class="col-md-4 col-md-offset-1" style="margin-left:0px">
+                    <div class="hero-content text-center" style="text-align:left;">
+                        <!--
+                        <img class="img-sketch" src="img/google_logo_1.svg" width="400px" alt="responsive devices">
+                        -->
+                        <h1>Getaround Design Challenge</h1>
+                        <p class="intro" style="margin-bottom:0px">A redesigned user and vehicle rating system to instill trust in the Getaround community</p>
+                        <p class="intro" style="font-family:Avenir LT W01_35 Light1475496; opacity:0.5">Role: UX/UI Design | Timeframe: 52 hours</p>
+                        <p class="intro" style="font-family:Avenir LT W01_35 Light1475496; opacity:0.5; margin-bottom:30px;">Tools Used: Sketch, Flinto, Invision, HandSketches, HTML+CSS+JS</p>
+                        
+                </div>
+                    <a href="#project" class="btn btn-ghost btn-accent btn-small" style="box-shadow: 0px 8px 25px rgba(28, 54, 83, 0.6);">View Project</a>
+                </div>
+                
+                <div class="macbook-wrap6 wp3"></div>
+                
+        </div>
+        </div>
+        
+        
+    </section>
+ 
+    
+    <section id="project" style="background:#F3F4F8" class="features-extra section-padding5" id="assets">
+        <div class="container">
+            <div class="row">
+                <div style="float:right" class="col-md-5">
+                    <div class="feature-list">
+                        
+                        <h3 style="margin-top:0px">Introducing Vehicle and User Rating from Getaround</h3>
+                        <p style="line-height:24px; font-weight:500">Getaround is a new rating system for its mobile application, giving renters and owners more confidence and trust than ever before. Getaround's certified vehicles give renters peace of mind that they're the best rides around. Getaround renters with pro status let renters know that their vehciles are in goof hands. You can even see renter certifications and vehicle mechanic checkups to make sure you're making the best decision possible.</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="macbook-wrap wp4"></div>
+        <div class="responsive-feature-img"><img src="img/High-Fidelity-Mocks.gif" alt="responsive devices"></div>
+    </section>
+ 
+        <section class="first section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Problem</h3>
+                    <p>"We allow renters to rate trips they’ve taken and owners to state whether they would trust the renter to rent their car again. We currently use this data internally so our support team can address issues and bad user behavior. As we become a community regulated marketplace, we want to surface user and car ratings in the product in instill confidence and trust in our users."</b></p>
+                <hr>
+                </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Breaking Down the Problem</h3>
+                    <p>Before I got anywhere designing or ideating, I took time to break down the prompt into components. I wanted to understand my design objectives and to begin listing the assumptions I carried with me going into the design challenge. I broke the problem into the what, who, and how to better understand how to tackle the problem at hand.</p>
+                        <img class="img-sketch" src="img/whiteboard3.png" width="100%" alt="responsive devices">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="first3 section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Current User Flows</h3>
+                    <p>After breaking down the design challenge, I drew out a user flow to identify the initial assumptions I had about the users, their behaviors, and their needs.</p>
+                </div>
+                
+                <img class="img-sketch" src="img/whiteboard1.png" width="100%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Adding Ideation</h3>
+                    <p>Adding ideas and concepts to my initial assumptions. These concepts would need qualitative and quantitave validation before coming to a final design decision.</p>
+                </div>
+                
+                <img class="img-sketch" src="img/whiteboard2.png" width="80%" alt="responsive devices">
+                
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="first4 section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div style="margin-left:auto; width:auto" class="col-md-6 col-md-offset-3">
+                    <h3>Research + Interviews</h3>
+                    <p>After getting a general sense of where I wanted to take my design exercise and identifying areas to research, I decided to dive deeper into the scenarios surrounding the three user groups I indentified while breaking down the design prompt. These user groups were the following- <b>owners, users/riders, and Getaround.</b> The first step of this process was renting a Getaround car and interviewing the owner. You can check out the Google Doc with my notes<a target="_blank" href="https://docs.google.com/document/d/1k5f2thsTq8RGi23j8KOfrk8Ue4K3WxUE0E0jiZruwu4/edit?usp=sharing"> here</a> and the interview questions <a target="_blank" href="https://docs.google.com/document/d/1rGRmlz5pCTBjkfVL0r1r9H69Jg5u90a8XiC85ZcxQSI/edit?usp=sharing"> here.</a></p>
+                    <p><i>"What you would test or what data you would collect to make product design decisions?"</i> - The qualitative research and data I woud do moving forward (including those that weren't feasible given my time limit) were user interviews, car mechanic interviews, market research, and pattern research surrounding digital rating. As far as quantitative research goes I'd collect user rating usage data, collect viable vehcile and user rating parameters, and conduct A/B testing between Getaround's current rating system and other digital rating systems.</p>
+                </div>
+                
+                <img class="img-sketch" src="img/car.png" width="75%" alt="responsive devices">
+                <br><br>
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Market Research</h3>
+                    <p>I also spent some time looking into current full and partial solutions to the problem of surfacing ratings. Everything from articles on what constitutes a clean and well serviced vehicle to how to rate items digitally was considered to make sure I'd end up with the best solution to the challenge given my short time limit.</p>
+                </div>
+                
+                <img class="img-sketch" src="img/carrating.png" width="60%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Article from the DMV that gave me good idea about what areas a vehicle can and should be rating on to ensure it's safety and performace. If given more time, I would've liked to visit and research traditional car rental services to better understand how they rate vehicles.<a target="_blank" href="http://http://www.dmv.org/buy-sell/used-cars/used-car-work-sheet.php"> Link here</a></p>
+                </div>
+                
+                <img class="img-sketch" src="img/review.png" width="60%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Design article about how to encourage ratings on a digital platform. Although it was specific to app reviews, the low level information was very useful in designing flows and wireframes moving forward.<a target="_blank" href="https://medium.com/circa/the-right-way-to-ask-users-to-review-your-app-9a32fd604fca"> Link here</a></p>
+                </div>
+                
+                <img class="img-sketch" src="img/flow.png" width="60%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Article about creating a sense of "flow" within a digital experience. This was of particular importance since rating flows can be so tedious for users. I wanted the process to move quickly provide users with a sense of accomplishment.<a target="_blank" href="http://uxmag.com/articles/beyond-task-completion-flow-in-design"> Link here</a></p>
+                </div>
+                    
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-page section-padding text-center">
+        <div class="container">
+            <h3 style="color:#fff">Revised Design Objective</h3>
+            <p style="color:rgba(255,255,255,0.9)">With all of my research, initial ideation, and user personas in hand, I decided to create a revised design objective. The rationale behind the narrowing of the design prompt was to ensure that the design accurately addressed the needs of all three user groups.<br><br><span style="font-family:Avenir LT W01_95 Black1475556; font-size:20px; line-height:28px">"Design an experience that surfaces car and user ratings via an updated search and rental process in order to instill confidence and trust in the Getaround community."</span></p>
+        </div>
+    </section>
+    
+    <section class="first section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>High-Level Flows and Wireframes</h3>
+                    <p>After plenty of ideation and wireframing on thw whiteboard, I dove into a little more detail with pen and paper wireframing and mocking up user flows. Below is some quick wireframing and flows to better understand how search could surface ratings while also condensing the information hierarchy.</b></p>
+                </div>
+                <img class="img-sketch" src="img/sketch004.png" width="60%" alt="responsive devices">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Wireframing options and solutions for filtering based on ratings and the criteria for certified owners and renters. These wires also explored micro-interactions and animations for search and filters.</p>
+                </div>
+                <img class="img-sketch" src="img/sketch003.png" width="60%" alt="responsive devices">
+        
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Below are user flow and wires that dive deeper into the decision making process surrounding rentals and how highlighting owner and renter ratings can lead to better rentals. The notes in red are notes to keep on track and refine the ideation process.</p>
+                </div>
+                <img class="img-sketch" src="img/sketch001.png" width="60%" alt="responsive devices">
+        
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Wireframes and information hierarchy exploration for surfacing vehicle ratings within search.</p>
+                </div>
+                <img class="img-sketch" src="img/sketch005.png" width="60%" alt="responsive devices">
+        
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Ideating solutions for conveying renter trustworthiness to owners and allowing them to make confident decisions about their vehicles.</p>
+                </div>
+                <img class="img-sketch" src="img/sketch002.png" width="60%" alt="responsive devices">
+        
+                <div class="col-md-6 col-md-offset-3">
+                    <p>User Flows and wireframe ideation on surfacing vehicle ratings through inspections, before, duirng, and after each trip (provided that issues are present).</p>
+                </div>
+                <img class="img-sketch" src="img/sketch006.png" width="60%" alt="responsive devices">
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="first3 section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Proposed Final Solution Mockups + Flows</h3>
+                    <p>Below are the final high-level wireframes and flows for the renter and owner flows. The renter flow is to surface owner and vehicle ratings while the owner flow surfaces renter ratings to determine rental decisions.</p>
+                </div>
+                <img class="img-sketch" src="img/finalflows.png" width="75%" alt="responsive devices">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <h4>Searching and Filtering to Surface Ratings</h4>
+                    <p>To surface car, owner, and renter ratings in the Getaround mobile app I redesigned search and filtering functionalty. Filters now can display only "verified" vehicles. These are vehicles that have over 20 trips and consistently receive 5 star ratings inside and out with minimal mehcanical issues. Another option that was explored in wireframes and flows was the concept of using CarFax reports and mechanic inspections to further verify cars.</p>
+                </div>
+                <img class="img-sketch" src="img/searchmocks.png" width="100%" alt="responsive devices">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <h4>What's Getaround Verified?</h4>
+                    <p>Getaround verified vehicles receive a green check mark inside of search to surface their owners commitment to exellence in the mobile application. In the new filter functionality, the call to action button also displays the number of results that the filter has yielded.</p>
+                </div>
+                <img class="img-sketch" src="img/verified.png" width="80%" alt="responsive devices">
+                
+                <div class="col-md-6 col-md-offset-3">
+                    <h4>Surfacing Car and User Ratings</h4>
+                    <p>Apart from surfacing vehicle ratings while scrolling through a filtered search, users can now view the rating breakdown of how particular vehicles. This brings to light any mechanical, interior, or exterior issues that the vehicle may have had.</p>
+                </div>
+                <img class="img-sketch" src="img/pro_user_flow.png" width="100%" alt="responsive devices">
+                
+            </div>
+        </div>
+    </section>
+
+<section class="features-extra section-padding6" id="assets" style="background:#fff">
+        <div class="container">
+            <div class="row">
+                <div style="float:right" class="col-md-5">
+                    <div class="feature-list">
+                        <h3>User + Rider Ratings</h3>
+                        <p style="line-height:30px">To surface user ratings and instill confidence in owners to trust their vehicles with others, renters can become "Getaround Pro" users and receive a pink star on their profile picture.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="macbook-wrap5 wp4"></div>
+        <div class="responsive-feature-img"><img src="img/macbook-pro.png" alt="responsive devices"></div>
+    </section>
+
+    <section class="first3 section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Surfacing Vehicle Ratings Before Trips</h3>
+                    <p>Below are the high-fidelity mockups and flows for rating a vehicle before a trip. I chose a breadcrumb flow to reduce the user's cognitive load during ratings and to shorten the perceived time of vehicle review.</p>
+                </div>
+                <img class="img-sketch" src="img/pre_trip_review.png" width="100%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Reporting Vehicle Issues During Trips</h3>
+                    <p>In addition to contacting owners and Getaround about vehicle issues during a trip, it would instill more confidence and trust in the community to use these issues as a criteria for vehicle ratings.</p>
+                </div>
+                <img class="img-sketch" src="img/during_trip1.png" width="80%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <p>Once a user has encountered and opted to report a vehicle issue during their trip, they're prompted with a review flow with the same aesthetics and interactions as a vehicle rating before a trip.</p>
+                </div>
+                <img class="img-sketch" src="img/during_trip2.png" width="80%" alt="responsive devices">
+            </div>
+        </div>
+    </section>
+
+    <section class="first section-padding text-center" id="download">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Approving Users and Surfacing Ratings</h3>
+                    <p>To instill trust and confidence in vehicle owners, I've redesigned the approval process in the Getaround mobile experience. When an owner receives a request from a renter for their vehicle, they can review that indivual's Getaround profile. There the renter's Getaround trips, ratings, and trustworthiness is displayed. If they have earned a Getaround pro status, this will be displayed as well to convey addtional trust in the renter.</p>
+                </div>
+                <img class="img-sketch" src="img/approval.png" width="100%" alt="responsive devices">
+                <div class="col-md-6 col-md-offset-3">
+                    <h3>Why's the profile picture blurred out?</h3>
+                    <p>To avoid discrimination amongst the Getaround community, their profile picture will be hidden from owners until they have approved or denied that renter's request. The renter's profile and ratings will give the owner plenty of data to make a decision.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial-page section-padding text-center">
+        <div class="container">
+            <h3 style="color:#fff">Design Exercise Reflection</h3>
+            <p><span style="font-weight:700; font-size:16px; color: #fff">After completing this design chellenge, I took a time to reflect on my work and consider its achievements and areas for future development.</span></p>
+            <div style="margin-bottom:20px" class="row">
+                <div class="col-md-4 intro-feature">
+                        
+                    <div class="intro-content">
+                        <h2>Goals</h2>
+                        <p>Acheived goals of designing with data-based rationale, considering mutiple directions, and thinking about iOS mobile design UX and IxD patterns.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    
+                    <div class="intro-content">
+                        <h2>Objectives</h2>
+                        <p>Delivered a novel solution to surface ratings within the Getaround app and instill confdence and trust in the community</p>
+                    </div>
+                </div>
+                <div class="col-md-4 intro-feature">
+                    
+                    <div class="intro-content last">
+                        <h2>Future Design</h2>
+                        <p>Consider more qualitative and quantitaive research to inform better design decisions. Develop more robust rating flows and visualization.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <section class="hero2">
+         <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <img class="img-sketch" src="img/Getaround%20Logo.svg" width="500px" alt="responsive devices">
+                </div>
+            </div>
+        </div>
+        </div>
+                        
+                    </div>
+            </div>
+        </div>
+        </div> 
+    </section>
+
+    <section class="to-top">
+        <div class="container">
+            <div class="row">
+                <div class="to-top-wrap">
+                    <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="bower_components/retina.js/dist/retina.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+<!--    
+<?php
+$dir = dirname(__FILE__);
+echo <p>Full path to this dir: ;
+echo $dir;
+echo '</p>';
+echo '<p>Full path to a .htpasswd file in this dir: ';
+echo $dir;
+echo '/.htpasswd" . '</p>';
+?>
+ -->
+    
+    <?php
+       echo phpinfo();    
+    ?>
+    
+</body>
+</html>

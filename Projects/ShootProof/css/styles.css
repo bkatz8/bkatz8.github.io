@@ -19,7 +19,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -159,14 +159,14 @@ h5 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase; 
-  background-color: #74CBE8;
+  background-color: #F73375;
     color: #fff;
 }
 
 .btn:hover, .btn:focus {
   color: #fff;
   
-  background-color: #6AB8D2; }
+  background-color: #E02F6B; }
 
 .btn-white {
   font-size: 13px;
@@ -263,7 +263,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%; }
@@ -293,6 +293,9 @@ ul li {
 
 .section-padding5 {
   padding: 150px 0; }
+
+.section-padding6 {
+  padding: 200px 0; }
 
 .tooltip {
   position: absolute;
@@ -516,7 +519,10 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 100vh;
-  background: url("../img/hero.png") center center;
+  background: #83D1EC;
+  /*
+  background-image: linear-gradient(47deg, #5672d1 0%, #685ec3 26%, #8d35a5 82%);
+    */
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -524,7 +530,9 @@ Hero
   .hero h1 {
     color: #fff;
     margin-bottom: 15px; 
-  font-weight: 700;
+    font-weight: 700;
+    font-family:"Avenir LT W01_95 Black1475556";
+    font-size: 42px;
   }
     
   .hero p.intro {
@@ -596,7 +604,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }
@@ -782,9 +790,9 @@ Features-stack
   .features-extra .macbook-wrap {
     position: absolute;
     width: 730px;
-    height: 490px;
+    height: 520px;
     background: url("../img/macbook-pro.svg") no-repeat center center;
-    top: 10%;
+    top: 8%;
     z-index: 4;
     left: 5%; 
 }
@@ -793,17 +801,75 @@ Features-stack
     position: absolute;
     width: 916px;
     height: 540px;
-    background: url("../img/picture_perfect.gif") no-repeat center center;
+    background: url("../img/macbook-pro-2.svg") no-repeat center center;
+    /*
     background-size: 700px;
-    top: 5%;
+    */
+    top: -8%;
     z-index: 4;
     left: 35%; 
 }
     .macbook-wrap2 img{
     width: 200px;
     }
-   
+.macbook-wrap3 {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro-3.svg") no-repeat center center;
+    /*
+    background-size: 700px;
+    */
+    top: -18%;
+    z-index: 4;
+    left: -2%; 
+}
+    .macbook-wrap4 {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro-4.svg") no-repeat center center;
+    /*
+    background-size: 700px;
+    */
+    top: -8%;
+    z-index: 4;
+    left: 35%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
 
+.macbook-wrap5 {
+    position: absolute;
+    width: 916px;
+    height: 540px;
+    background: url("../img/macbook-pro-5.svg") no-repeat center center;
+    /*
+    background-size: 700px;
+    */
+    top: -4%;
+    z-index: 4;
+    left: -2%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
+
+    .macbook-wrap6 {
+    position: absolute;
+    width: 821px;
+    height: 480px;
+    background: url("../../FullStory/img/hero.svg") no-repeat center center;
+    background-size: 100%;
+    top: 20vh;
+    z-index: 4;
+    left: 38%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
+    
 /*
 
 
@@ -935,10 +1001,10 @@ Features-stack
     font-style: italic;
     margin: 30px 0; }
   .testimonial-slider p {
-    color: #ACB1B4;
-    
-    letter-spacing: 2px; 
+    color: ;
+    letter-spacing: ; 
     margin-top: 15px;
+      line-height: 24px;
 }
 
 /* ==========================================================================
@@ -1616,7 +1682,7 @@ you can use the generic selector below, but it's slower:
 
 .feature-list{
    margin-top: 0%; 
-   margin-left: 20px;
+   margin-left: 0px;
 }
 
 

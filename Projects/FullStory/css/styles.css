@@ -519,7 +519,10 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 100vh;
-  background: url("../img/fullstory.jpg") center center;
+  background: #4890DE;
+  /*
+  background-image: linear-gradient(47deg, #5672d1 0%, #685ec3 26%, #8d35a5 82%);
+    */
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -529,7 +532,7 @@ Hero
     margin-bottom: 15px; 
     font-weight: 700;
     font-family:"Avenir LT W01_95 Black1475556";
-    font-size: 32px;
+    font-size: 42px;
   }
     
   .hero p.intro {
@@ -852,6 +855,21 @@ Features-stack
     .macbook-wrap2 img{
     width: 200px;
     }
+
+    .macbook-wrap6 {
+    position: absolute;
+    width: 821px;
+    height: 480px;
+    background: url("../../FullStory/img/hero.svg") no-repeat center center;
+    background-size: 100%;
+    top: 20vh;
+    z-index: 4;
+    left: 38%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
+    
 /*
 
 

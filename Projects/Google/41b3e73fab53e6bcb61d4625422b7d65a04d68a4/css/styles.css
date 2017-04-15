@@ -19,7 +19,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -159,14 +159,14 @@ h5 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase; 
-  background-color: #74CBE8;
+  background-color: #F73375;
     color: #fff;
 }
 
 .btn:hover, .btn:focus {
   color: #fff;
   
-  background-color: #6AB8D2; }
+  background-color: #E02F6B; }
 
 .btn-white {
   font-size: 13px;
@@ -263,7 +263,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%; }
@@ -518,15 +518,17 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 100vh;
-  background: url("../img/hero.png") center center;
+  background: #fff;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
     color: #1a1a1a; }
   .hero h1 {
-    color: #fff;
+    color: #444;
     margin-bottom: 15px; 
-  font-weight: 700;
+    font-weight: 700;
+    font-family:"Avenir LT W01_95 Black1475556";
+    font-size: 42px; 
   }
     
   .hero p.intro {
@@ -548,7 +550,7 @@ Hero
 Hero2
 ========================================================================== */
 .hero2 {
-  min-height: 650px;
+  min-height: ;
   background-color: #fff;
   background-size: cover;
   position: relative; }
@@ -572,7 +574,9 @@ Hero2
     margin-bottom: 0px; }
     
   .hero2 .hero-content {
-    padding-top: 18%; }
+    padding-top: 10%; 
+    padding-bottom: 10%;
+    }
 
 
 .navigation {
@@ -600,7 +604,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }
@@ -807,7 +811,19 @@ Features-stack
     width: 200px;
     }
    
-
+ .macbook-wrap6 {
+    position: absolute;
+    width: 821px;
+    height: 580px;
+    background: url("../img/hero.svg") no-repeat center center;
+    background-size: 100%;
+    top: 15vh;
+    z-index: 4;
+    left: 40%; 
+}
+    .macbook-wrap2 img{
+    width: 200px;
+    }
 /*
 
 

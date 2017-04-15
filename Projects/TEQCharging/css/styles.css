@@ -159,14 +159,14 @@ h5 {
   border-radius: 40px;
   display: inline-block;
   text-transform: uppercase; 
-  background-color: #4A90E2;
+  background-color: #F73375;
     color: #fff;
 }
 
 .btn:hover, .btn:focus {
   color: #fff;
   
-  background-color: #4380C7; }
+  background-color: #E02F6B; }
 
 .btn-white {
   font-size: 13px;
@@ -505,7 +505,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 100vh;
-  background: url("../img/TEQhero.svg") center center;
+  background: #4D92DF;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -796,6 +796,21 @@ Features-stack
     width: 200px;
     }
    
+.macbook-wrap6 {
+    position: absolute;
+    width: 821px;
+    height: 580px;
+    background: url("../../TEQCharging/img/hero.svg") no-repeat center center;
+    background-size: 100%;
+    top: 15vh;
+    z-index: 4;
+    left: 38%; 
+}
+    
+
+    .macbook-wrap2 img{
+    width: 200px;
+    }
 
 /*
 

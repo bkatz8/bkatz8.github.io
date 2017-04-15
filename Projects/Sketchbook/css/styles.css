@@ -17,7 +17,7 @@
 }
 
 .header a {
-  font-family: 'Open Sans',Sans-Serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-size: 15px;
   color: #fff;
   -webkit-transition: .1s linear opacity;
@@ -146,15 +146,18 @@ h5 {
 
 .btn {
   font-size: 13px;
-  border: solid 2px;
+  
   border-radius: 40px;
   display: inline-block;
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  background-color: #F73375;
+    color: #fff;
+}
 
 .btn:hover, .btn:focus {
   color: #fff;
-  border-color: #FF5274;
-  background-color: #FF5274; }
+  
+  background-color: #E02F6B; }
 
 .btn-white {
   font-size: 13px;
@@ -235,7 +238,7 @@ a:hover, a:focus {
   text-decoration: none; }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Avenir LT W01_35 Light1475496";
   font-weight: 300;
   color: rgba(28, 54, 83, 0.6);
   -webkit-text-size-adjust: 100%; }
@@ -487,16 +490,17 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: url("../img/hero.jpg") center center;
+  background: #455A64;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
     color: #fff; }
   .hero h1 {
-    font-weight: 700;
     color: #fff;
-    margin-bottom: 0px; 
-    margin-top: 0px; 
+    margin-bottom: 15px; 
+    font-weight: 700;
+    font-family:"Avenir LT W01_95 Black1475556";
+    font-size: 42px; 
   }
   .hero p.intro {
     color: #fff;
@@ -539,7 +543,7 @@ header {
           transition: padding 300ms ease-in-out; }
   header a {
     color: #191919;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 30px; }
     header a.login {
       margin-right: 20px; }
@@ -693,7 +697,15 @@ Features-stack
     z-index: 4;
     left: -15%; }
    
-
+.macbook-wrap6 {
+    position: absolute;
+    width: 870px;
+    height: 480px;
+    background: url("../img/hero.svg") no-repeat center center;
+    background-size: 70%;
+    top: 20vh;
+    z-index: 4;
+    left: 38%; 
 }
 
 /*

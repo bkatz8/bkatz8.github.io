@@ -1,0 +1,5 @@
+AuthName "Enter password and user"
+AuthType Basic
+AuthUserFile /customers/3/c/7/benkatz.io/httpd.www/Projects/Google/.htpasswd
+AuthGroupFile /dev/null 
+require valid-user
