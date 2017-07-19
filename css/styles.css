@@ -310,7 +310,7 @@ Global Styles
   margin: 0; }
 
 a {
-  color: #f9f9f9;
+  color: #F73375;
   font-weight: 600;
   -webkit-transition-timing-function: ease;
   transition-timing-function: ease;
@@ -323,6 +323,11 @@ a {
 a:hover, a:focus {
   color: #F73375;
   text-decoration: none; }
+
+.hovering:hover, .hovering:focus {
+   color: #CE32CE;
+   text-decoration: none;
+}
 
 body {
   font-family:"Avenir LT W01_95 Black1475556";
